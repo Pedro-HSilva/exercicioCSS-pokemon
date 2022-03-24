@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  margin-top: 32px;
+  background-color: brown;
+  padding: 10px;
+  margin-top: 0%;
+}
+
+h1 {
+  text-align: center;
+}
+
+body {
+  background-color: rgb(194, 43, 16);
+}
+
+a,
+article {
+  text-decoration: none;
+  color: white;
+}
+
+.linkazul:hover {
+  color: rgb(29, 187, 187);
+}
+.linkamarelo:hover {
+  color: yellow;
+}
+
+.container {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.esquerda {
+  padding: 16px;
+  width: 265px;
+  height: 500px;
+  background-color: grey;
+  text-align: center;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+
+.direita {
+  border-radius: 50%;
+  padding: 16px;
+  width: 600px;
+  height: 500px;
+  background-color: lightgray;
+  justify-content: space-around;
+}
+
+#squartle {
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#titulo-squartle,
+#titulo-squartle2 {
+  color: rgb(29, 187, 187);
+}
+
+#titulo-agua {
+  background-color: rgb(29, 187, 187);
+  width: 30%;
+  margin: auto;
+  color: rgb(2, 71, 71);
+  padding: 5px;
+  border-radius: 50%;
+}
+
+#titulo-pika,
+#titulo-pika2 {
+  color: rgb(218, 178, 3);
+}
+
+#pika {
+  height: 300px;
+  margin-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#titulo-eletric {
+  background-color: rgb(255, 251, 4);
+  width: 30%;
+  margin: auto;
+  color: rgb(139, 114, 0);
+  padding: 5px;
+  border-radius: 50%;
+}
